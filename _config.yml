@@ -1,11 +1,11 @@
 # Site settings
 author: Nicholas Wilson
-title: 
+title: My Flatiron Bootcamp Journey
 header-img: img/home-bg.png
 email: nicholas.wilson@nevada.unr.edu
 copyright_name: Nicholas Wilson
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Learning how to Program
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  nicholas-wilson

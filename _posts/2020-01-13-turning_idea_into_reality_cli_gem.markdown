@@ -1,0 +1,23 @@
+---
+layout: post
+title:      "Turning Idea into Reality! (CLI GEM)"
+date:       2020-01-13 22:35:00 +0000
+permalink:  turning_idea_into_reality_cli_gem
+---
+
+
+When starting a new project it can be very overwhelming, especially when it's up to you to create something from nothing! Staring at a blank page of code while coming up with a project idea can definitely kill a person's morale, so the best thing to do is leave the computer and brainstorm by talking with another person. Talking with someone else even if it's just about leisure activities can inspire some great ideas. When struck with this new task of making a CLI Ruby GEM, I decided to talk with my mother for some inspiration and within about 5 mins she mentioned something about Pokemon. While I didn't really like her idea overall there were a lot of things I could potentially do with Pokemon. As someone who has played just about every Pokemon game it was clear to me that I needed to make something to display info about Pokemon!
+
+Having found my basic idea, I decided to watch some videos on how to create a new gem and set it up with github. I must have watched each video about 3 times fully and constantly went back to certain parts if I didn't remember how something was implemented. After setting up this new gem I was still hit with the same problem of staring at blank files with no code and it was up to me to fill them. I knew I was at my limit for the night and realized I should start again the next day and stub out some functions then.
+
+The video that helped me the most was recommended in the project page, in the video Avi teaches that stubbing out the functions and building all the code you wish you could use is a good way to go about building your project. Basically just working on the most immediate problem, taking everything one piece at a time to build the structure of the program and not the functionality. Doing this first and making sure everything still worked after adding new methods was the key to keeping me sane because if I had to remove a method I stubbed out, it was no big deal since it most likely just output a string saying "method_name was called!" Starting from the bottom and asking myself "What do I want to be able to do next?" was what I did the entire time up until I decided my gem was finished.
+
+Now when it came to actually writing fully functional code and scraping from the websites thats where most of my time was spent. There was a lot of trial and error when it came to using Nokogiri and its .css method in order to actually get the data I wanted off a webpage. Also it turned out that the original page I had planned to scrape from didn't actually work for what I wanted to do. I had tried using the official Pokemon site's pokedex page but since it doesn't list all the pokemon on the page without the user scrolling I couldn't pull info from all the pokemon, only about 20. So, I looked around more and played with scraping info from a couple other sites before I found one I could use.
+
+It was great, I had finally got the CLI program to get all the pokemon's names and types but I thought it wasn't enough. Fortunately it was easy to get the info about a pokemon's weaknesses and also their abilities from the official site if I already had the pokemon's name. So I thought since I already created all the basics of the pokemon when the program firsts runs I could just add all the pokemon's extra details then too! This was a mistake that cost too much time, not only for the user when first running the program but also for myself as I would test new changes.
+
+Turns out that scraping from 810 extra web pages takes a lot of time. For some reason it would take longer if it was scraping a page for the first time than if it had already gone through the same page on a previous test, so the very first time ended up taking about 15 minutes to load and each time I would test after took 2 minutes. Unfortunately I kept with the idea of loading everything in the beginning until the program was fully functional, but when I did finally realize I could just load the extra details when the user requested info on a specific pokemon it was easy to implement the changes.
+
+The code written is nowhere near perfect, but after lots of testing Pokemon_Info gem is now at a reasonable working state that provides decent info on the basics of each Pokemon. By not expecting perfection it was a lot easier to deal with the many mistakes that ended up happening and also get small pieces of satisfaction to keep motivation up when I would write code that did function. Remembering to take things one step at a time is a great way to turn an idea into something real and functional.
+
+

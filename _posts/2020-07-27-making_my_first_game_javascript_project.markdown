@@ -1,0 +1,18 @@
+---
+layout: post
+title:      "Making My First Game (Javascript Project)"
+date:       2020-07-28 03:46:51 +0000
+permalink:  making_my_first_game_javascript_project
+---
+
+
+When it comes to making a web application there are a few different programming languages in play. There is the HTML that provides all of the content to the client, the CSS arranges that content in a specific way, and then there is the Javascript that adds all the fun stuff and brings the application to life! Without Javascript, or a similar scripting language, the application takes a downgrade into a plain, boring static web page. Luckily for us Javascript is around and we can do amazing things with it, like make a game!
+
+Developing video games has been a dream of mine since I was little and with the freedom Flatiron School gives us with the Javascript Project, I saw the perfect opportunity to make my own game. Of course making a full-blown video game requires a lot of experienced people or a lot of time, but that didn't mean my ideas for the game were scaled down to size. When going to plan out the game I made sure to keep my ideas simpler, limiting the game to just a battler where a player can fight against enemies using buttons on the screen, instead of trying to make anything with actual movement. Like I said though, my ideas weren't scaled down to the right size and I still wanted to have cool features like obtainable items.
+
+Once the coding process started, it was very easy to keep building out the basic structure of this game. The way I went about starting was to make sure I had a strong plan mapped out for the different classes and how the flow of the game should be. Making sure to set up the Rails API with my Units and its corresponding controller was very important so that I could get good sample data to play with in my Javascript code. Creating a rough image of my game with HTML and CSS was the next step and it was probably the slowest in terms of progress but was never a standstill. After that was when I really got into the Javascript and was able to actually ask the API to give me a unit and display its data in the console.
+
+While getting most of the CSS and HTML out of the way was awesome, that was also when I had to start reevaluating my plan. The initial bit of creating a class for units was a breeze, but as I had to start making other classes I wasn't sure if I should make subclasses of units as well or how exactly they would be connected through the code. This uncertainty was where the slowdown really hit, I really had to think carefully so that I wouldn't overcomplicate the code and even then I ended up adding a bunch of related functions just sitting in the global scope. Regrouping those functions into a specific class that contained functions to change display elements in the DOM, actually helped a lot in terms of working efficiently again. Even though some cool ideas like items were also cut from the game plan, I was able to make a game.
+
+This game is by no means a work of art, nor is it incredibly fun, but it is definitely a game that conveys the initial idea I had. I did struggle at times with getting the result I wanted to show on the screen, but making sure to rewrite exactly what I wanted to be seen after a button is pressed was a great way to make sure I stayed on track and made changes to help push the game back towards my vision. This game is very simple in terms of playing it, you just recruit units to beat enemies and increase your stats. It's definitely not AAA quality, but it is the very first game I have made and I can't wait to make better ones in the future!
+
